@@ -21,6 +21,7 @@
         }
         .video-background {
             position: fixed;
+            object-position: center center;
             inset: 0;              /* shorthand for top/right/bottom/left: 0 */
             overflow: hidden;
             z-index: -2;
@@ -29,11 +30,13 @@
          .video-background video {
               margin-left: auto;
               margin-right: auto;
+              object-position: center center;
               display: block; 
          }
 
         .video-overlay {
             inset: 0;
+            object-position: center center;
             margin-left: auto;
             margin-right: auto;
             background: rgba(10, 15, 40, 0.7);
